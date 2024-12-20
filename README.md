@@ -38,10 +38,14 @@ ________________________________________
 
 Installation
 It is recommended to use the python_interactions3.yml file, as it is the working environment. Using conda:
+```
 conda env create -f python_interactions3.yml
+```
 
 Then from the sifter0.1 folder:
+```
 python setup.py install
+```
 
 
 Dependencies
@@ -65,19 +69,24 @@ ________________________________________
 Usage
 Basic Command
 Run the program from the command line:
-
+```
 sifter -d /path/to/data_dir -p complex_name -r 2.0
-
+```
 Arguments
 •	-d, --data_dir (Required): Path to the directory containing PDBBind refined structures.
 •	-p, --pharmacophore (Optional): PDB ID of the complex to visualize.
 •	-r, --res_tresh (Optional): Resolution threshold in Å (default: 2.0).
 
 Example
-
-sifter -d ./pdb_data -p 1a4w -r 1.5
-
-This command will analyze structures in the ./pdb_data directory, visualize pharmacophore interactions for the 1a4w complex, and skip complexes with resolution above 1.5 Å.
+On Linux:
+```
+sifter -d /path_to_dataset/dataset -p 1a4w -r 3
+```
+On Windows:
+```
+sifter -d ":C/path_to_dataset/dataset" -p 1a4w -r 3
+```
+This command will analyze structures in the ./pdb_data directory, visualize pharmacophore interactions for the 1a4w complex, and skip complexes with resolution above 3 Å.
 ________________________________________
 Workflow
 1.	Load Data: Reads the dataset from the specified directory.
