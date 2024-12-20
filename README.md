@@ -7,29 +7,8 @@ Sifter: Structural Interaction Fingerprinting Tool
 Sifter is a Python-based tool for analyzing and visualizing pharmacophores and structural interaction fingerprints (SIFts). It supports processing PDBBind data, visualizing pharmacophore interactions, clustering ligands based on similarity, and grouping protein families.
 This program has been created by using the refined set of the PDBbind database, and therefore works on a dataset which is structured in the following way:
 
-.
-.
-├── complex_name
-
-│     ├── complex_name_pocket.pdb
-
-|     ├── complex_name_ligand.sdf
-
-│     └── comlpex_name_ligand.mol (optional, can be used if the SDF is not available)
-
-|
-
-├── 1aq1
-
-│     ├── 1aq1_pocket.pdb
-
-|     ├── 1aq1_ligand.sdf
-  
-│     └── 1aq1_ligand.mol (optional, can be used if the SDF is not available)
-
-|
-
-.   .................
+Dataset: 
+. ├── complex_name │ ├── complex_name_pocket.pdb - Binding pocket file in PDB format. │ ├── complex_name_ligand.sdf - Ligand structure in SDF format. │ └── complex_name_ligand.mol - Optional ligand file in MOL format (used if SDF is not available). │ ├── 1aq1 │ ├── 1aq1_pocket.pdb - Binding pocket file in PDB format. │ ├── 1aq1_ligand.sdf - Ligand structure in SDF format. │ └── 1aq1_ligand.mol - Optional ligand file in MOL format (used if SDF is not available). │ ...
 
 
 
