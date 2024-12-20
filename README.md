@@ -86,7 +86,7 @@ On Windows:
 ```
 sifter -d ":C/path_to_dataset/dataset" -p 1a4w -r 3
 ```
-This command will analyze structures in the ./pdb_data directory, visualize pharmacophore interactions for the 1a4w complex, and skip complexes with resolution above 3 Å.
+This command filter out all the complexes with resolutions higher than 3 A, prepare the structures by removing water, adding charges, generate SIFTs and then analyze structures present in the subdirectories of the dataset, generate an interactive informative plot (of ligands, structural similarity and associated protein family) and finally visualize pharmacophore interactions for the selected complex (in this example the 1a4w complex), save a pymol session of the generated pharmacophore (in the current directory).
 
 You can test sifter on a small dataset that is included in the tar and rar archives.
 ________________________________________
