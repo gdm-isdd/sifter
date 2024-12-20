@@ -2,20 +2,8 @@ Sifter 0.1
 
 Installation Requirements:
 Conda
-
-Installation guide
-Install the python_interactions3 with conda:
-conda env create -f python_interactions3.yml
-conda activate python_interactions3
-
-Install sifter: from the environment, in the directory of sifter0.1:
-
-python setup.py install
-
-User Guide: 
--d : dire
-
 Sifter: Structural Interaction Fingerprinting Tool
+
 Sifter is a Python-based tool for analyzing and visualizing pharmacophores and structural interaction fingerprints (SIFts). It supports processing PDBBind data, visualizing pharmacophore interactions, clustering ligands based on similarity, and grouping protein families.
 Features
 •	Data Preparation: Prepares PDB structures for interaction analysis.
