@@ -10,6 +10,7 @@ This program has been created by using the refined set of the PDBbind database, 
 .
 .
 ├── complex_name
+
 │   ├── complex_name_pocket.pdb
 |   ├── complex_name_ligand.sdf
 │   └── comlpex_name_ligand.mol (optional, can be used if the SDF is not available)
