@@ -11,21 +11,21 @@ This program has been created by using the refined set of the PDBbind database, 
 .
 ├── complex_name
 
-│   ├── complex_name_pocket.pdb
+│     ├── complex_name_pocket.pdb
 
-|   ├── complex_name_ligand.sdf
+|     ├── complex_name_ligand.sdf
 
-│   └── comlpex_name_ligand.mol (optional, can be used if the SDF is not available)
+│     └── comlpex_name_ligand.mol (optional, can be used if the SDF is not available)
 
 |
 
 ├── 1aq1
 
-│   ├── 1aq1_pocket.pdb
+│     ├── 1aq1_pocket.pdb
 
-|   ├── 1aq1_ligand.sdf
-
-│   └── 1aq1_ligand.mol (optional, can be used if the SDF is not available)
+|     ├── 1aq1_ligand.sdf
+  
+│     └── 1aq1_ligand.mol (optional, can be used if the SDF is not available)
 
 |
 
