@@ -37,7 +37,7 @@ ________________________________________
 
 
 Installation
-It is recommended to use the python_interactions3.yml file, as it is the working environment. Using conda:
+It is recommended to use the python_interactions3.yml file, as it is the working environment (which is in the folder called env). Using conda:
 ```
 conda env create -f python_interactions3.yml
 ```
@@ -87,6 +87,8 @@ On Windows:
 sifter -d ":C/path_to_dataset/dataset" -p 1a4w -r 3
 ```
 This command will analyze structures in the ./pdb_data directory, visualize pharmacophore interactions for the 1a4w complex, and skip complexes with resolution above 3 Å.
+
+You can test sifter on a small dataset that is included in the tar and rar archives.
 ________________________________________
 Workflow
 1.	Load Data: Reads the dataset from the specified directory.
