@@ -12,14 +12,23 @@ This program has been created by using the refined set of the PDBbind database, 
 ├── complex_name
 
 │   ├── complex_name_pocket.pdb
+
 |   ├── complex_name_ligand.sdf
+
 │   └── comlpex_name_ligand.mol (optional, can be used if the SDF is not available)
+
 |
+
 ├── 1aq1
+
 │   ├── 1aq1_pocket.pdb
+
 |   ├── 1aq1_ligand.sdf
+
 │   └── 1aq1_ligand.mol (optional, can be used if the SDF is not available)
+
 |
+
 .   .................
 
 
@@ -63,17 +72,18 @@ ________________________________________
 Usage
 Basic Command
 Run the program from the command line:
-bash
-Copy code
+
 sifter -d /path/to/data_dir -p complex_name -r 2.0
+
 Arguments
 •	-d, --data_dir (Required): Path to the directory containing PDBBind refined structures.
 •	-p, --pharmacophore (Optional): PDB ID of the complex to visualize.
 •	-r, --res_tresh (Optional): Resolution threshold in Å (default: 2.0).
+
 Example
-bash
-Copy code
+
 sifter -d ./pdb_data -p 1a4w -r 1.5
+
 This command will analyze structures in the ./pdb_data directory, visualize pharmacophore interactions for the 1a4w complex, and skip complexes with resolution above 1.5 Å.
 ________________________________________
 Workflow
