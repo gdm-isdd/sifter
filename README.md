@@ -9,7 +9,19 @@ This program has been created by using the refined set of the PDBbind database, 
 
 ### Dataset Structure
 Dataset: 
-. ├── complex_name │ ├── complex_name_pocket.pdb - Binding pocket file in PDB format. │ ├── complex_name_ligand.sdf - Ligand structure in SDF format. │ └── complex_name_ligand.mol - Optional ligand file in MOL format (used if SDF is not available). │ ├── 1aq1 │ ├── 1aq1_pocket.pdb - Binding pocket file in PDB format. │ ├── 1aq1_ligand.sdf - Ligand structure in SDF format. │ └── 1aq1_ligand.mol - Optional ligand file in MOL format (used if SDF is not available). │ ...
+.
+├── complex_name
+│   ├── complex_name_pocket.pdb  - Binding pocket file in PDB format.
+│   ├── complex_name_ligand.sdf  - Ligand structure in SDF format.
+│   └── complex_name_ligand.mol  - Optional ligand file in MOL format (used if SDF is not available).
+│
+├── 1aq1
+│   ├── 1aq1_pocket.pdb  - Binding pocket file in PDB format.
+│   ├── 1aq1_ligand.sdf  - Ligand structure in SDF format.
+│   └── 1aq1_ligand.mol  - Optional ligand file in MOL format (used if SDF is not available).
+│
+...
+
 
 
 
