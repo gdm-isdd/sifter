@@ -1,4 +1,4 @@
-# Sifter 0.1
+# Sifter 1.0
 
 Installation Requirements:
 Conda
