@@ -37,13 +37,15 @@ ________________________________________
 
 
 Installation
-It is recommended to use the python_interactions3.yml file, as it is the working environment (which is in the folder called env). Using conda:
+It is recommended to use the python_interactions3.yml file, as it is the working environment (which is provided in the "env" folder). Using conda:
 ```
+cd env
 conda env create -f python_interactions3.yml
 ```
 
-Then from the sifter0.1 folder:
+Then from the sifter folder:
 ```
+cd sifter_linux
 python setup.py install
 ```
 
@@ -80,11 +82,11 @@ Arguments
 Example
 On Linux:
 ```
-sifter -d /path_to_dataset/dataset -p 1a4w -r 3
+sifter -d /path_to_dataset/small_set -p 1a4w -r 3.0
 ```
 On Windows:
 ```
-sifter -d ":C/path_to_dataset/dataset" -p 1a4w -r 3
+sifter -d ":C/path_to_dataset/small_set" -p 1a4w -r 3.0
 ```
 This command filters out all the complexes with resolutions higher than 3 A, prepare the structures by removing water, adding charges, generate SIFTs and then analyze structures present in the subdirectories of the dataset, generate an interactive informative plot (of ligands, structural similarity and associated protein family) and finally visualize pharmacophore interactions for the selected complex (in this example the 1a4w complex), save a pymol session of the generated pharmacophore (in the current directory).
 
