@@ -36,7 +36,7 @@ Features
 ________________________________________
 
 
-Installation
+### Installation
 It is recommended to use the python_interactions3.yml file, as it is the working environment (which is provided in the "env" folder). Using conda:
 ```
 cd env
@@ -68,7 +68,7 @@ ________________________________________
 
 
 
-Usage
+### Usage
 Basic Command
 Run the program from the command line:
 ```
